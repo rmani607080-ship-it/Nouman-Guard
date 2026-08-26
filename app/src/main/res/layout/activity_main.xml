@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:background="#F5F7FA">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="24dp"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="NOUMAN GUARD"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:textColor="#1E293B"
+            android:layout_marginTop="28dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Private DNS Protection"
+            android:textSize="15sp"
+            android:textColor="#64748B"
+            android:layout_marginTop="6dp" />
+
+        <TextView
+            android:id="@+id/statusText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="حفاظت غیر فعال ہے"
+            android:textSize="21sp"
+            android:textStyle="bold"
+            android:textColor="#334155"
+            android:layout_marginTop="42dp" />
+
+        <TextView
+            android:id="@+id/detailText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Protection شروع کرنے کے لیے نیچے بٹن دبائیں۔"
+            android:textSize="15sp"
+            android:textColor="#64748B"
+            android:gravity="center"
+            android:layout_marginTop="14dp" />
+
+        <Button
+            android:id="@+id/toggleButton"
+            android:layout_width="240dp"
+            android:layout_height="58dp"
+            android:text="START PROTECTION"
+            android:textSize="16sp"
+            android:textStyle="bold"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="34dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Included\n• Adult domain blocking\n• Cloudflare Family DNS\n• Gaming traffic remains outside the VPN tunnel\n• Foreground protection status\n\nBlocked domains\nPornhub, XVideos, XNXX, RedTube, YouPorn, XHamster and selected related domains."
+            android:textSize="14sp"
+            android:textColor="#475569"
+            android:layout_marginTop="36dp"
+            android:lineSpacingExtra="5dp" />
+    </LinearLayout>
+</ScrollView>
